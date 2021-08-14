@@ -18,7 +18,7 @@ export const SidebarContainer = styled.div`
     right: ${({isOpen}) => isOpen ? '0': '-1000px'};
     
     @media screen and (max-width:400px){
-        width: 100px;
+        width: 250px;
     }
 `
 
