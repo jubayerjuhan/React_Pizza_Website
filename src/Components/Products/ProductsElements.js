@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ProductsContainer = styled.div`
-    width: 100%
+    width: 100%;
     min-height: 100vh;
     padding: 5rem calc((100vw - 1300px)/2);
     background: #150f0f;
@@ -51,6 +51,7 @@ export const ProductsInfo = styled.div`
 
 export const ProductsDescription = styled.p`
     margin-bottom: 2rem;
+    line-height: 1.5;
 `
 
 export const ProductsPrice = styled.p`
