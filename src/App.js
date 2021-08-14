@@ -5,6 +5,7 @@ import Products from "./Components/Products/Products";
 import { productData, productDataTwo} from "./Components/Products/data";
 import Desert from "./Components/Desert/Desert";
 import Feature from "./Components/Feature/Feature";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Products heading="Choose Your Fav Pizza" data={productData}/>
         <Feature/>
         <Desert heading="Choose Your Fav Desert" data={productDataTwo}></Desert>
+        <Footer/>
       </Router>
 
   );
